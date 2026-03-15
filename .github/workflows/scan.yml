@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/AntonisSfikakis/hw_0_pipeline_repo:latest'
+          default: 'ghcr.io/antonissfikakis/hw_0_pipeline_repo:latest'
 
 env:
   REGISTRY: ghcr.io
